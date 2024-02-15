@@ -5,7 +5,7 @@ A sample note-taking app for web practice.
 # Running project
 
 1. `npm install` in root
-2. Depending on what you want to run, go either into frontend or backend folder and run `npm run dev`
+2. Depending on what you want to run, go either into frontend or backend folder and run `npm install` followed by `npm run dev`
 
 # Scripts
 
@@ -16,12 +16,12 @@ A sample note-taking app for web practice.
 ## Frontend
 
 - `npm run dev`: will start frontend in dev mode
-- `npm run build`: will generated compiled project inside (frontend/dist)
+- `npm run build`: will generate compiled project inside frontend/dist
 
 ## Backend
 
 - `npm run dev`: will start backend in dev mode
-- `npm run build`: will generated compiled project inside (backend/dist)
+- `npm run build`: will generate compiled project inside backend/dist
 
 # How was this project setup?
 
@@ -83,7 +83,7 @@ For that we change "outDir" option
 
 ```
 
-Having that done, the root file with hello world server example was created ("src/index.ts"), however it was
+Having that done, the root file with hello world server example was also created ("src/index.ts"), however it was
 also necessary to install typescript types for express (they are not included by default in express, some libraries do include them):
 
 ```shell
@@ -96,8 +96,7 @@ For development needs we want two things:
 
 - We want to run project as simple as possible
 - We don't want to manually restart server every time we make change
-- In order to achieve that we'll create a "dev" script that will call nodemon and point nodemon to index.ts file
-  which will. Since it is ".ts" file, nodemon is smart enough to detect that we have "ts-node" and will use that, allowing us
+- In order to achieve that we'll create a "dev" script that will call nodemon and point nodemon to index.ts file. Since it is ".ts" file, nodemon is smart enough to detect that we have "ts-node" and will use that, allowing us
   to skip compiling step and run typescript file directly.
   This is how package.json scripts section looks like after we add that script:
 
