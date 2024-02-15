@@ -1,0 +1,15 @@
+.card {
+  padding: 4px;
+  border-radius: 4px;
+  background-color: var(--light);
+  border: 1px solid var(--dark);
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.card:hover {
+  background-color: #fff;
+  border: 1px solid var(--blue);
+  cursor: pointer;
+}
