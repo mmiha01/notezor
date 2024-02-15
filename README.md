@@ -13,8 +13,8 @@ Frontend folders were automatically generated with following command:
 npm create vite@latest frontend -- --template react-ts
 ```
 
-`npm create` is a method that is used to pull templates that will set up your project and
-in this case - it pulled "vite@latest" template called "react-ts" (react with typescript) and placed it
+`npm create` is a method that is used to pull blueprints that will set up your project and
+in this case - it pulled "vite@latest" with template called "react-ts" (react with typescript) and placed it
 inside "frontend" folder where frontend part of the application will be. Only thing for us to do is
 go to frontend folder, run `npm install` to download necessary dependencies and run it via `npm run dev`.
 
