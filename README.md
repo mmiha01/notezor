@@ -2,6 +2,27 @@
 
 A sample note-taking app for web practice.
 
+# Running project
+
+1. `npm install` in root
+2. Depending on what you want to run, go either into frontend or backend folder and run `npm run dev`
+
+# Scripts
+
+## Root
+
+- `npm run format`: will format all code
+
+## Frontend
+
+- `npm run dev`: will start frontend in dev mode
+- `npm run build`: will generated compiled project inside (frontend/dist)
+
+## Backend
+
+- `npm run dev`: will start backend in dev mode
+- `npm run build`: will generated compiled project inside (backend/dist)
+
 # How was this project setup?
 
 ## Frontend
