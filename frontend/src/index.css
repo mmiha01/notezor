@@ -1,7 +1,6 @@
 /* Some base generic styles */
 
 :root {
-  box-sizing: border-box;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -20,6 +19,10 @@
   background-color: #fff;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   font-weight: 500;
   text-decoration: inherit;
@@ -31,10 +34,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -59,4 +58,12 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.text-center {
+  text-align: center;
 }

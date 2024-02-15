@@ -1,9 +1,11 @@
 import { ChangeEvent } from "react";
-import "./input.css";
+import "./Input.css";
 
 interface Props {
   value: string;
-  onChange: (event: ChangeEvent) => void;
+  onChange: (
+    event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => void;
   multiline?: boolean;
   placeholder?: string;
   id?: string;

@@ -21,3 +21,7 @@
 .input:focus {
   border: 1px solid var(--darkblue);
 }
+
+textarea.input {
+  height: 124px;
+}

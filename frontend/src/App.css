@@ -1,0 +1,30 @@
+main {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0px 16px;
+}
+
+#main-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-form .input {
+  margin-bottom: 24px;
+}
+
+#notes-area {
+  margin-top: 32px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.note-content {
+  margin-top: 4px;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 8px 8px 8px 24px;
+  border: 1px solid var(--light);
+}
